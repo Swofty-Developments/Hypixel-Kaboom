@@ -1,5 +1,6 @@
 check-for-updates: true
 show-colors-in-console: true
+use-kaboom.exempt: true
 
 #
 # If you dont want a prefix change the string to ""
@@ -12,7 +13,7 @@ player-not-found: "&cCould not find player &e%player%"
 
 
 #
-#    The command will not work on these worlds
+#    The command will not work on these worlds and players in these worlds will not be kaboomed
 #
 disable-worlds:
   - "disabledworld1"
