@@ -1,0 +1,3 @@
+name: KaboomPlugin
+version: ${project.version}
+main: net.hypixel.kaboomplugin.KaboomPlugin

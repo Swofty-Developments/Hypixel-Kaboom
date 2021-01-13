@@ -1,0 +1,39 @@
+check-for-updates: true
+show-colors-in-console: true
+
+#
+# If you dont want a prefix change the string to ""
+#
+prefix: "&c[Kaboom] "
+no-permission: "&cOnly admins can use this command"
+reload-message: "&aPlugin has been reloaded"
+exempt-message: "You cannot kaboom %player% because he has kaboom.exempt"
+player-not-found: "&cCould not find player &e%player%"
+
+
+#
+#    The command will not work on these worlds
+#
+disable-worlds:
+  - "disabledworld1"
+  - "disabledworld2"
+  - "disabledworld3"
+
+
+#
+#    Use %player% for the person who executed the kaboom command
+#    If you dont want a title / subtitle change the string to ""
+#
+title-for-kaboomed-players:
+  enabled: true
+  title: "&eYou have been kaboomed"
+  subtitle: "&eby &c%player%"
+
+
+#
+#    Use %player% for the person who executed the kaboom command
+#    Note: This doesnt use the prefix
+#
+message-for-kaboomed-players:
+  enabled: true
+  message: "&eYou have been kaboomed by %player%"
