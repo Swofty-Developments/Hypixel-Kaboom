@@ -1,4 +1,4 @@
-# Hypixel Kaboom
+# Hypixel Kaboom by Swofty
 
 # When Building:
 If you use IntelliJ IDEA, you can build the project 2 ways:
